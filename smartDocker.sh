@@ -5,7 +5,7 @@ show_beginner_menu() {
 
 while :
 do
-    choice=$(zenity --list --title="Container Management Tool [BEGINNER Mode]" --width=600 --height=400  --column="Option" --column="Description" \
+    choice=$(zenity --list --title="Container Management Tool [BEGINNER Mode]" --width=500 --height=400  --column="Option" --column="Description" \
 	  0 "Main Menu"\
         1 "Check Docker Service Status" \
         2 "Check If Docker Is Installed" \
