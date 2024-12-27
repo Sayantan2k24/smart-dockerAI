@@ -6,31 +6,31 @@ show_beginner_menu() {
 while :
 do
     choice=$(zenity --list --title="Container Management Tool [BEGINNER Mode]" --width=500 --height=400  --column="Option" --column="Description" \
-	  0 "Main Menu"\
-        1 "Check Docker Service Status" \
-        2 "Check If Docker Is Installed" \
-        3 "Install The Docker-CE" \
-        4 "Check If Docker Is Enabled" \
-        5 "List All The Containers Including Stopped Ones" \
-        6 "List All The Running Containers Only" \
-        7 "List The Available Images" \
-        8 "Launch A Container" \
-        9 "Stop A Container" \
-        10 "Stop All The Running Containers" \
-        11 "Download/Pull A Docker Image" \
-        12 "Delete A Docker Image" \
-        13 "Remove A Docker Container" \
-        14 "Stop All The Running Containers" \
-        15 "Remove All The Running Containers Only" \
-        16 "Remove All The Containers" \
-        17 "Start All The Stopped Containers" \
-        18 "Restart a Container" \
-        19 "Restart All Containers" \
-        20 "View Container Logs" \
-	  21 "Inspect A Container" \
-	  22 "Inspect the Docker Image" \
-	  23 "Create A DockerFile with the help of AI Assistant"\
-	  24 "Build DockerImage" \ )
+	0 "Main Menu"\
+	1 "Check Docker Service Status" \
+	2 "Check If Docker Is Installed" \
+	3 "Install The Docker-CE" \
+	4 "Check If Docker Is Enabled" \	
+	5 "List All The Containers Including Stopped Ones" \
+	6 "List All The Running Containers Only" \
+	7 "List The Available Images" \
+	8 "Launch A Container" \
+	9 "Stop A Container" \
+	10 "Stop All The Running Containers" \
+	11 "Download/Pull A Docker Image" \
+	12 "Delete A Docker Image" \
+	13 "Remove A Docker Container" \
+	14 "Stop All The Running Containers" \
+	15 "Remove All The Running Containers Only" \
+	16 "Remove All The Containers" \
+	17 "Start All The Stopped Containers" \
+	18 "Restart a Container" \
+	19 "Restart All Containers" \
+	20 "View Container Logs" \
+ 	21 "Inspect A Container" \
+	22 "Inspect the Docker Image" \
+	23 "Create A DockerFile with the help of AI Assistant"\
+	24 "Build DockerImage" \ )
 
 
 
