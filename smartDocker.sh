@@ -278,7 +278,7 @@ case $proChoice in
 		return
 		;;
 	*)
-		echo "Invalid: Select Among Those Options only""	
+		echo "Invalid: Select Among Those Options only"
 		;;
 
 	esac
