@@ -27,7 +27,7 @@ do
         18 "Restart a Container" \
         19 "Restart All Containers" \
         20 "View Container Logs" \
-	  21 "Create A Dockerfile" \
+	  21 "Inspect A Container" \
 	  22 "Inspect the Docker Image" \
 	  23 "Create A DockerFile with the help of AI Assistant"\
 	  24 "Build DockerImage" \ )
@@ -247,7 +247,7 @@ case $choice in
 		;;	
 
 	*)
-        	echo "Invalid choice. Please choose between 0 to 17."
+        	echo "Invalid: Select Among Those Options only""
 		
         	;;
 esac
@@ -278,7 +278,7 @@ case $proChoice in
 		return
 		;;
 	*)
-		echo "Invalid Option"	
+		echo "Invalid: Select Among Those Options only""	
 		;;
 
 	esac
@@ -306,7 +306,7 @@ case $mode in
 		exit
 		;;
 	*) 
-		echo "invalid: Select Among Those Options only"
+		echo "Invalid: Select Among Those Options only"
 		;;
 esac
 
